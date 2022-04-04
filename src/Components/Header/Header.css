@@ -1,0 +1,17 @@
+.brand-icon {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.navbar {
+  text-decoration: none;
+  color: #007476;
+  font-size: large;
+  margin-right: 20px;
+}
+.navbar:hover {
+  background-color: #007476;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
