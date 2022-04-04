@@ -5,7 +5,7 @@ import './Reviwes.css';
 
 const Reviwes = (props) => {
   const { name, about, picture, ratings } = props.comment;
-  console.log(props.comment);
+ 
  
   return (
     <div className="card">

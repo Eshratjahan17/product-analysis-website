@@ -37,6 +37,7 @@ const Body = () => {
           {bodyComments.map((comment) => (
             <Reviwes key={comment.id} comment={comment}></Reviwes>
           ))}
+         
         </div>
 
         <Link to="/allreviwes">
