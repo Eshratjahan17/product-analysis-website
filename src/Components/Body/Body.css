@@ -1,15 +1,44 @@
+.reviwes-container h1 {
+  margin-bottom: 50px;
+}
+
 .img-container img {
   width: 400px;
   height: 400px;
+  border-radius: 20px;
 }
 .text-container {
   text-align: left;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  margin-left: 87px;
 }
 .body-container {
   margin: 20px 20px;
 }
-.text-container h1 {
+.text-container p {
+  text-align: justify;
+  width: 600px;
+}
+span {
+  color: #007476;
+}
+.reviwes-container {
+  margin-top: 30px;
+}
+.see-all-btn {
+  background-color: #008489;
+  width: 20%;
+  border: none;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 25px;
+  font-size: large;
+  color: white;
+}
+.see-all-btn:hover {
+  background-color: #005452;
+}
+.comments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
 }

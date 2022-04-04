@@ -1,9 +1,22 @@
-import React from 'react';
 
-const Reviwes = () => {
+import React from 'react';
+import './Reviwes.css';
+
+
+const Reviwes = (props) => {
+  const { name, about, picture, ratings } = props.comment;
+  console.log(props.comment);
+ 
   return (
-    <div>
-      <h1>this is reviwes</h1>
+    <div className="card">
+      <div className="user">
+        <img src={picture} alt="" />
+        <h3>{name}</h3>
+      </div>
+      <div className="comment">
+        <p>{about.slice(0,200)}</p>
+        
+      </div>
     </div>
   );
 };
