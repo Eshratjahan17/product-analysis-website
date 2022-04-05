@@ -1,0 +1,18 @@
+.chart-conatiner {
+  margin-top: 70px;
+  margin-left: 87px;
+  margin-right: 87px;
+  display: grid;
+  gap: 70px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.dash-board-conatiner h1 {
+  font-weight: bold;
+  color: #665ff5;
+  text-align: left;
+  margin-left: 124px;
+  top: 0;
+}
+.dash-board-conatiner {
+  margin-bottom: 50px;
+}
