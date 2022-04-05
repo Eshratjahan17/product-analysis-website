@@ -14,8 +14,8 @@ const Reviwes = (props) => {
         <h3>{name}</h3>
       </div>
       <div className="comment">
-        <p>{about.slice(0,200)}</p>
-        
+        <p>{about.slice(0, 200)}</p>
+        <img src={ratings}></img>
       </div>
     </div>
   );
