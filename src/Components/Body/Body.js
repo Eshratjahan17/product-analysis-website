@@ -17,12 +17,13 @@ const Body = () => {
           <span>Should be the Best One</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-          voluptatibus maxime eos perferendis quod nulla! Distinctio ex minus
-          quis cum deserunt error illum voluptatibus! Veniam, quae. Optio
-          exercitationem quam, ad earum delectus et ab temporibus beatae
-          doloribus quidem dicta corrupti esse aut, labore distinctio quisquam
-          voluptatem aspernatur? Sint, quidem ratione.
+          A laptop, laptop computer, or notebook computer is a small, portable
+          personal computer (PC) with a screen and alphanumeric keyboard.
+          Laptops typically have a clam shell form factor with the screen
+          mounted on the inside of the upper lid and the keyboard on the inside
+          of the lower lid, although 2-in-1 PCs with a detachable keyboard are
+          often marketed as laptops or as having a laptop mode. Laptops are
+          folded shut for transportation, and thus are suitable for mobile use.
         </p>
       </div>
       <div className="img-container col-3">
@@ -37,7 +38,6 @@ const Body = () => {
           {bodyComments.map((comment) => (
             <Reviwes key={comment.id} comment={comment}></Reviwes>
           ))}
-         
         </div>
 
         <Link to="/allreviwes">
