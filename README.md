@@ -4,10 +4,10 @@ This project was bootstrapped with [Laptop Reviwe App](https://laptopreviwes.net
 
 ## About project
 
--Used React
--Used HOOKS
--Used BOOTSTRAP
--Used VNILLA CSS
+- Used React
+- Used HOOKS
+- Used BOOTSTRAP
+- Used VNILLA CSS
 
 ### `npm start`
 
