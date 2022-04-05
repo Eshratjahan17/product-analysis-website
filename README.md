@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Laptop Reviwe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Laptop Reviwe App](https://laptopreviwes.netlify.app/).
 
-## Available Scripts
+## About project
 
-In the project directory, you can run:
+-Used React
+-Used HOOKS
+-Used BOOTSTRAP
+-Used VNILLA CSS
 
 ### `npm start`
 

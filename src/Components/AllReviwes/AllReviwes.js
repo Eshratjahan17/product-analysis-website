@@ -5,7 +5,7 @@ import './AllReviwes.css';
 
 const AllReviwes = () => {
   const [comments, setComments] = useData();
-  console.log(comments);
+  
   
   return (
     <div>
